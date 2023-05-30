@@ -35,14 +35,14 @@
 }
 
 .nav-link {
-    font-family: 'Open Sans';
+    font: var(--font-family);
     font-style: normal;
     color: white;
     transition: text-shadow 0.3s ease-in-out;
 }
 
 .nav-item:hover .nav-link {
-    text-shadow: 0px 0px 3px white;
+    text-shadow: 0px 0px 3px var(--primary);
 }
   
 .nav-link.text-accent {

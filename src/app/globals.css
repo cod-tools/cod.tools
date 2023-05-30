@@ -8,6 +8,10 @@
 
 :root {
   --font-family: "Montserrat", sans-serif;
+  --primary: #FFD700;
+  --secondary: #FFA500;
   --bg: #171717;
+  --bg2: #282828;
+  --text-dark: #979797;
   --gradient: linear-gradient(81.66deg, #FFD700 19.42%, #FFA500 80.58%);
 }

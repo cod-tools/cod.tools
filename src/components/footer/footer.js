@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import './footer.css';
 
 const Footer = () => {
@@ -5,7 +6,10 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <p className="footer-text">Call of Dragons Tools</p>
-        <p className="bwl-text">Built with ❤️ by <a className="gamerraven" href="https://github.com/GamerRaven" target='_blank'>GamerRaven</a></p>
+        <img src="/logo2.png" className='logo'/>
+        <Link href="https://github.com/GamerRaven">
+          <a className="bwl-text">Built with ❤️ by GamerRaven</a>
+        </Link>
       </div>
     </footer>
   );
