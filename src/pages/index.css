@@ -88,3 +88,31 @@ body {
     color: white;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .page-background {
+        height: 100%;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .container {
+        padding: 2em 1em;
+    }
+
+    .sections {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .section {
+        flex: none;
+        padding: 1em;
+    }
+
+    .section-title{
+        text-align: center;
+    }
+}
