@@ -52,7 +52,7 @@ export default function WikiBot() {
           <div className="wiki-features-box">
             <h2 className="wiki-box-title">Tier List</h2>
             <div className="wiki-bottom-container">
-              <img src="https://i.imgur.com/dxbW3fu.png" alt="Feature 4" />
+              <img src="https://i.imgur.com/MjcVhFo.png" alt="Feature 4" />
               <p className="wiki-description">Get a sorted Tier List to learn which heroes and artifacts to invest in.</p>
             </div>
           </div>
