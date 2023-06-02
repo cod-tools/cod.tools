@@ -1,10 +1,17 @@
-import './index.css';
+import Head from 'next/head';
+
 import Header from '@/components/header/header';
 import Footer from '@/components/footer/footer';
+
+import './index.css';
 
 export default function WikiBot() {
   return (
     <>
+      <Head>
+        <title>Call of Dragons Discord Wiki Bot | cod.tools</title>
+        <meta name="description" content="Access all the information you need about Call of Dragons with our reliable Wiki Bot. Discover details on heroes, artifacts, and behemoths, all in one place. " />
+      </Head>
       <Header />
       <div className="wiki-infobox">
         <h1 className="wiki-title">Call of Dragons Wiki Bot</h1>

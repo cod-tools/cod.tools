@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Head from 'next/head';
+
 import Header from '@/components/header/header';
 import Footer from '@/components/footer/footer';
 
@@ -7,6 +9,10 @@ import "./index.css"
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Call of Dragons Guides and Tools | cod.tools</title>
+        <meta name="description" content="Discover expert guides, valuable tips, and effective strategies for mastering Call of Dragons. Enhance your gameplay, level up your skills, and dominate the dragon-filled world with our comprehensive resources and tools." />
+      </Head>
       <div className="home-page-background" />
       <div className="home-content">
         <Header />
