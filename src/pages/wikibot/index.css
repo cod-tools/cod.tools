@@ -15,6 +15,7 @@
     font-size: 53px;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
 }
   
 .wiki-button-group {
@@ -90,6 +91,8 @@
     box-shadow: 0px 4px 14px 9px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     background-color: var(--bg2);
+    margin-left: 25px;
+    margin-right: 25px;
 }
   
   
@@ -166,4 +169,23 @@
 .wiki-command-description {
     color: var(--text-light);
     font-size: 1.1em;
-}  
+}
+
+@media screen and (max-width: 768px) {
+    .wiki-title{
+        margin-top: 30px;
+        margin-bottom: -16px;
+    }
+
+    .wiki-button-group {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .wiki-button {
+      flex: 1 0 40%;
+      max-width: 40%;
+      margin: 8px;
+    }
+  }
+  

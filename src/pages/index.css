@@ -39,6 +39,7 @@ body {
     font-size: 63px;
     font-weight: 1000;
     margin-top: 20px;
+    text-align: center;
 }
   
 .home-gold {
@@ -77,6 +78,7 @@ body {
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 1em;
+    text-align: center;
     background: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -94,10 +96,6 @@ body {
       height: 100%;
     }
   
-    .home-title {
-      text-align: center;
-    }
-  
     .home-container {
       padding: 2em 1em;
     }
@@ -110,9 +108,5 @@ body {
     .home-section {
       flex: none;
       padding: 1em;
-    }
-  
-    .home-section-title {
-      text-align: center;
     }
 }  
