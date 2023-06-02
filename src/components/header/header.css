@@ -9,6 +9,10 @@
     position: relative;
 }
 
+.header-not-home {
+    background: rgba(55, 55, 55);
+}
+
 .logo-container {
     position: absolute;
     left: 10px;

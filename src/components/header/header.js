@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link'; 
 
@@ -10,8 +11,14 @@ const Header = () => {
     { path: '/wikibot', name: 'Wiki Bot' },
   ];
 
+  const [isNotHome, setIsNotHome] = useState(false);
+
+  useEffect(() => {
+    setIsNotHome(router.pathname !== '/');
+  }, [router.pathname]);
+
   return (
-    <header className="header">
+    <header className={`header ${isNotHome ? 'header-not-home' : ''}`}>
       <Link href="/">
         <a className="logo-container">
           <img src="/icon.png" />
