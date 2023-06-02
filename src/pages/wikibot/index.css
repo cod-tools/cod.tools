@@ -10,10 +10,11 @@
   
 .wiki-title {
     font-family: var(--font-family);
-    color: var(--primary);
+    color: white;
     margin-bottom: 1em;
-    font-size: 3em;
-    font-weight: 1000;
+    font-size: 53px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
   
 .wiki-button-group {
@@ -44,6 +45,7 @@
     text-align: center;
     max-width: 350px;
     height: 40px;
+    margin-bottom: -60px;
 }
   
 .wiki-button:hover {
@@ -51,7 +53,7 @@
 }
   
 .wiki-features {
-    background-color: var(--bg2);
+    background-color: var(--bg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,12 +61,14 @@
   
 .wiki-section-title {
     font-weight: 700;
-    font-size: 40px;
-    margin-top: 30px;
-    color: var(--secondary);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    padding: 10px 20px;
-    border-radius: 8px;
+    font-size: 45px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 40px;
 }
   
 .wiki-features-row {
@@ -72,36 +76,58 @@
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    margin-bottom: 2em;
+    margin-bottom: 32px;
 }
   
 .wiki-features-box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     margin-top: 30px;
-    width: 40%;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-    background-color: var(--bg);
+    width: 700px;
+    height: 560px;
+    box-shadow: 0px 4px 14px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: var(--bg2);
 }
   
-.wiki-features-box img {
-    max-height: 400px;
-}
   
-.wiki-features-box .wiki-title {
-    margin-top: 20px;
-    font-size: 2em;
+.wiki-box-title {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
     font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
 }
   
-.wiki-features-box .wiki-description {
+.wiki-description {
     font-size: 1.2em;
     text-align: center;
     color: var(--text-light);
+    width: 100%;
+    margin: 20px;
 }
+  
+.wiki-features-box img {
+    border: 3px solid transparent;
+    border-radius: 10px;
+    max-height: 434px;
+    background: linear-gradient(var(--bg), var(--bg)) padding-box, var(--gradient) border-box;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+  
+  
+.wiki-features-box .wiki-bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
   
 .wiki-commands {
     background-color: var(--bg);
@@ -133,7 +159,7 @@
   
 .wiki-command-name {
     font-weight: bold;
-    color: var(--secondary);
+    color: var(--primary);
     font-size: 1.2em;
 }
   
