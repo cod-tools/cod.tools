@@ -27,7 +27,7 @@ export default function Home() {
               </a>
             </Link>
             <a className="home-section">
-              <h2 className="home-section-title">Call of Dragons Calculator</h2>
+              <h2 className="home-section-title">Call of Dragons Calculators</h2>
               <p className="home-section-description">Coming Soon...</p>
             </a>
           </div>
