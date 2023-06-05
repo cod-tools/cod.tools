@@ -1,0 +1,36 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 2em;
+    background-color: var(--bg2);
+}
+
+.sidebar-title {
+    margin-top: 67px;
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.sidebar-link {
+    display: block;
+    margin-left: 12px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: var(--text-light);
+}
+
+.sidebar-link:hover {
+    color: var(--primary);
+}
+
+@media (max-width: 1080px) {
+    .sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+}

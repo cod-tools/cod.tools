@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import Header from '@/components/header/header';
 import Footer from '@/components/footer/footer';
+import Sidebar from '@/components/sidebar/sidebar';
 
 import './index.css';
 
@@ -16,22 +17,14 @@ export default function Calculators() {
       <Header />
       <div className="calculators-content">
         <div className="calculators-container">
-          <aside className="sidebar">
-            <h2 className='sidebar-title'>Calculators</h2>
-            <Link key="wikibot" href="/wikibot">
-              <a className="sidebar-link">Calculator 1</a>
-            </Link>
-            <Link key="calculators" href="/calculators">
-              <a className="sidebar-link">Calculator 2</a>
-            </Link>
-          </aside>
+          <Sidebar />
           <main className="main-section">
             <div className='calculators-titles'>
               <h1 className="calculators-title">Call of Dragons Calculators</h1>
               <h2 className='calculators-description'>This is a description</h2>
             </div>
             <div className="calculators-sections">
-              <Link key="wikibot" href="/wikibot">
+              <Link key="wikibot" href="/calculators/speedups">
                 <a className="calculators-section">
                   <h2 className="calculators-section-title">Speedups Calculator</h2>
                   <p className="calculators-section-description">Calculate the total amount of speedups you have</p>

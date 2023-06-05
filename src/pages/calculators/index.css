@@ -79,34 +79,6 @@
     color: white;
     font-weight: 600;
 }
-
-/*Sidebar*/
-
-.sidebar {
-    width: 80%;
-    grid-row: 2;
-    grid-column: 1;
-    padding: 2em;
-    background-color: var(--bg2);
-}
-
-.sidebar-title{
-    color: var(--primary);
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.sidebar-link {
-    display: block;
-    margin-left: 10px;
-    margin-bottom: 8px;
-    text-decoration: none;
-    color: var(--text-light);
-}
-  
-.sidebar-link:hover {
-    color: var(--primary);
-}
   
 .main-section {
     grid-row: 2;
@@ -134,7 +106,7 @@
       padding: 1em;
     }
 
-    .sidebar, .main-section {
+    .main-section {
         grid-column: 1;
       }
     
