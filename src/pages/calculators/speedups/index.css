@@ -8,7 +8,6 @@
   
 .speedups-main-section {
     flex-grow: 1;
-    margin-left: 200px;
 }
 
 .speedups-titles{
@@ -23,7 +22,7 @@
     text-align: center;
     font-weight: 600;
 }
-  
+
 .speedups-description {
     text-align: center;
     color: var(--text-light);
@@ -76,13 +75,13 @@
 }
   
 .speedups-totals {                  
-    font-size: 0.9em;
+    font-size: 16px;
     color: var(--text-light);
     margin-top: 1em;
 }
   
 .speedups-large-totals {
-    font-size: 1.2em;
+    font-size: 24px;
     color: var(--text-light);
     margin-top: 2em;
     text-align: center;
@@ -90,7 +89,8 @@
     border-radius: 10px;
     background: linear-gradient(var(--bg), var(--bg)) padding-box, var(--gradient) border-box;
     margin-left: 50px;
-    margin-right: 50px;                                         
+    margin-right: 50px;     
+    margin-bottom: 50px;                                    
 }
   
 @media (max-width: 1080px) {

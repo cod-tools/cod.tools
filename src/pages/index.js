@@ -26,10 +26,12 @@ export default function Home() {
                 <p className="home-section-description">Discord Bot that presents details about Call of Dragons heroes, artifacts, and behemoths</p>
               </a>
             </Link>
-            <a className="home-section">
-              <h2 className="home-section-title">Call of Dragons Calculators</h2>
-              <p className="home-section-description">Coming Soon...</p>
-            </a>
+            <Link key="calculators" href="/calculators">
+              <a className="home-section">
+                <h2 className="home-section-title">Call of Dragons Calculators</h2>
+                <p className="home-section-description">Coming Soon...</p>
+              </a>
+            </Link>
           </div>
         </div>
       </div>

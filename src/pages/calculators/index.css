@@ -17,7 +17,7 @@
 }
 
 .calculators-title {
-    margin-top: 50px;
+    margin-top: -300px;
     font-family: var(--font-family);
     color: white;
     font-size: 53px;
@@ -40,7 +40,7 @@
     justify-content: space-around;
     gap: 4em;
     width: 95%;
-    margin-top: 50px;
+    margin-top: -150px;
 }
   
 .calculators-section {
@@ -89,11 +89,14 @@
 .calculators-container {
     display: grid;
     grid-template-columns: 240px 1fr;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
 }
 
 @media (max-width: 1080px) {
     .calculators-container {
       grid-template-columns: 1fr;
+      grid-template-rows: auto;
     }
   
     .calculators-sections {
@@ -108,9 +111,10 @@
 
     .main-section {
         grid-column: 1;
+        grid-row: 2; 
       }
     
     .calculators-container {
         grid-template-columns: 1fr;
-    }
+    }   
 }
