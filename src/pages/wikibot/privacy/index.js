@@ -43,7 +43,7 @@ export default function Privacy() {
               </p>
             </section>
             <section className="privacy-section">
-              <h2 className="privacy-section-title">Children's Privacy</h2>
+              <h2 className="privacy-section-title">Children&apos;s Privacy</h2>
               <p className="privacy-section-description">
                 Our Call of Dragons Wiki Bot is not intended for children under the age of 13. We do not knowingly collect any personal information from children. If we discover that we have unintentionally collected personal data from a child, we will promptly delete it from our systems.
               </p>
@@ -51,7 +51,7 @@ export default function Privacy() {
             <section className="privacy-section">
               <h2 className="privacy-section-title">Changes to this Privacy Policy</h2>
               <p className="privacy-section-description">
-                We may update this Privacy Policy from time to time. Any changes will be posted on this page, and the "Last Updated" date will be revised accordingly. We encourage users to review this Privacy Policy periodically for any updates.
+                We may update this Privacy Policy from time to time. Any changes will be posted on this page, and the &quot;Last Updated&quot; date will be revised accordingly. We encourage users to review this Privacy Policy periodically for any updates.
               </p>
             </section>
           </div>
