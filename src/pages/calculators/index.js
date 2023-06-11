@@ -18,7 +18,7 @@ export default function Calculators() {
       <div className="calculators-content">
         <div className="calculators-container">
           <Sidebar />
-          <main className="main-section">
+          <main className="main-section"> 
             <div className='calculators-titles'>
               <h1 className="calculators-title">Call of Dragons Calculators</h1>
               <h2 className='calculators-description'>This is a description</h2>
