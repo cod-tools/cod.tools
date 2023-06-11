@@ -54,24 +54,27 @@
 }
   
 .speedups-input-field {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
   
 .speedups-input-label {
     background: var(--primary);
     color: var(--bg);
     padding: 0.5em;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 1rem;
 }
   
 .speedups-input {
     flex-grow: 1;
     padding: 0.5em;
-    border-radius: 5px;
     border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 1rem;
+
 }
   
 .speedups-totals {                  
