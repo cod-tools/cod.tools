@@ -23,13 +23,13 @@ export default function Home() {
             <Link key="wikibot" href="/wikibot">
               <a className="home-section">
                 <h2 className="home-section-title">Call of Dragons Wiki Bot</h2>
-                <p className="home-section-description">Discord Bot that presents details about Call of Dragons heroes, artifacts, and behemoths</p>
+                <p className="home-section-description">Discord Bot that presents details about Call of Dragons heroes, artifacts, and behemoths.</p>
               </a>
             </Link>
             <Link key="calculators" href="/calculators">
               <a className="home-section">
                 <h2 className="home-section-title">Call of Dragons Calculators</h2>
-                <p className="home-section-description">Coming Soon...</p>
+                <p className="home-section-description">Determine the combined value of your resources and items to optimize your gameplay.</p>
               </a>
             </Link>
           </div>
