@@ -9,6 +9,7 @@ const Header = () => {
   const pages = [
     { path: '/', name: 'Home' },
     { path: '/wikibot', name: 'Wiki Bot' },
+    { path: '/calculators', name: 'Calculators' },
   ];
 
   const [isNotHome, setIsNotHome] = useState(false);
