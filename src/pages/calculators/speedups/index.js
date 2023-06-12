@@ -64,7 +64,7 @@ export default function Calculators() {
   const totalHours = Math.floor(totalMinutes / 60);
   const remainderMinutes = totalMinutes % 60;
 
-  const sections = ["Building Speedups", "Research Speedups", "Training Speedups", "Universal Speedups"];
+  const sections = ["Building Speedups", "Training Speedups", "Research Speedups", "Universal Speedups"];
   
   const totals = sections.reduce((acc, section) => {
     const sectionSeconds = Object.entries(values)
@@ -98,7 +98,7 @@ export default function Calculators() {
             <div className="speedups-large-totals">
               <div>Total: {totalHours}h {remainderMinutes}m</div>
               {sections.map((section, index) => section !== "Universal Speedups" && (
-                <div key={index}>{section} + Universal Speedups: {totals[section].hours + totals["Universal Speedups"].hours}h {totals[section].minutes + totals["Universal Speedups"].minutes}m</div>
+                <div key={index}>{section === "Research Speedups" ? "Research Speedups" : section} + Universal Speedups: {totals[section].hours + totals["Universal Speedups"].hours}h {totals[section].minutes + totals["Universal Speedups"].minutes}m</div>
               ))}
             </div>
           </main> 
