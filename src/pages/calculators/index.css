@@ -42,6 +42,8 @@
     font-size: 17px;
     font-family: var(--font-family);
     color: var(--text-light);
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .calculators-sections {

@@ -11,23 +11,14 @@
     flex-grow: 1;
 }
 
-.speedups-titles{
-    margin-top: 30px;
-    margin-bottom: 16px;
-}
-  
 .speedups-title {
     color: var(--primary);
     font-family: var(--font-family);
     font-size: 2em;
     text-align: center;
     font-weight: 600;
-}
-
-.speedups-description {
-    text-align: center;
-    color: var(--text-light);
-    margin-bottom: 2em;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
   
 .speedups-form-content {
@@ -47,12 +38,14 @@
 }
   
 .speedups-form-title {
+    border: 2px solid var(--secondary);
+    padding: 5px;
     color: var(--primary);
     font-weight: bold;
     text-align: center;
     font-size: 20px;
     margin-bottom: 1em;
-}
+}   
   
 .speedups-input-field {
     display: grid;
@@ -79,9 +72,12 @@
 }
   
 .speedups-totals {                  
-    font-size: 16px;
+    font-size: 20px;
     color: var(--text-light);
-    margin-top: 1em;
+}
+
+.speedups-prefix{
+    color: var(--primary);
 }
   
 .speedups-large-totals {

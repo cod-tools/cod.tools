@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Call of Dragons Guides and Tools | cod.tools</title>
-        <meta name="description" content="Discover expert guides, valuable tips, and effective strategies for mastering Call of Dragons. Enhance your gameplay, level up your skills, and dominate the dragon-filled world with our comprehensive resources and tools." />
+        <meta name="description" content="Discover useful tools for mastering Call of Dragons. Enhance your gameplay, level up your skills, and dominate with our comprehensive resources and tools." />
       </Head>
       <div className="home-page-background" />
       <div className="home-content">
