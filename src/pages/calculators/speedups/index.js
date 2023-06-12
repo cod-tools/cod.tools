@@ -27,8 +27,11 @@ const Fieldset = ({ legend, extraFields, values, setValues }) => {
   const times = ["1 m", "5 m", "10 m", "15 m", "30 m", "1 h", "3 h", "8 h", "15 h"].concat(extraFields || []);
   
   const handleChange = (event, time) => {
-    setValues(prev => ({ ...prev, [`${legend}-${time}`]: event.target.value }));
-  };
+    const value = event.target.value;
+    if (value === "" || (!isNaN(value) && parseInt(value, 10) >= 0)) {
+      setValues(prev => ({ ...prev, [`${legend}-${time}`]: value === "" ? "" : parseInt(value, 10) }));
+    }
+  };  
 
   const totalSeconds = times.reduce((total, time) => total + (timeInSec[time] * (values[`${legend}-${time}`] || 0)), 0);
   const totalMinutes = totalSeconds / 60;

@@ -11,7 +11,7 @@ import { IoClose } from "react-icons/io5";
 
 const Sidebar = () => {
     const links = [
-        { href: "/calculators/speedups", name: "Calculator 1" },
+        { href: "/calculators/speedups", name: "Speedups" },
     ];
 
     const [menuOpen, setMenuOpen] = useState(true);
