@@ -32,17 +32,29 @@ body {
     padding: 2em;
     background-color: transparent;
 }
-  
+
+.home-titles{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 1em;
+}
+
 .home-title {
     font-family: 'Open Sans', sans-serif;
     color: white;
-    margin-bottom: 1em;
-    font-size: 63px;
+    font-size: 60px;
     font-weight: 1000;
-    margin-top: 20px;
-    text-align: center;
+    margin-bottom: 5px;
 }
-  
+
+.home-description{
+    font-size: 17px;
+    font-family: var(--font-family);
+    color: var(--text-light);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .home-gold {
     background: var(--gradient);
     -webkit-background-clip: text;
@@ -91,6 +103,17 @@ body {
     color: white;
     font-weight: 600;
 }
+
+.seo-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
   
 @media (max-width: 1080px) {
     .home-page-background {
@@ -110,4 +133,4 @@ body {
       flex: none;
       padding: 1em;
     }
-}  
+} 
