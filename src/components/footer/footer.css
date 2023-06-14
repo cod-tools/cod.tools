@@ -32,7 +32,7 @@
     transform: translateX(-50%);
 }
 
-.bwl-text {
+.footer-discord {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 21px;
@@ -41,6 +41,11 @@
     -webkit-text-fill-color: transparent;
     margin-left: auto;
     display: block;
+    display: flex;
+}
+
+.footer-discord-icon{
+  margin-left: 10px;
 }
 
 @media (max-width: 900px) {

@@ -21,7 +21,7 @@ export default function Home() {
           <Image width={409} height={301} src='/logo1.png' alt="Logo" />
           <div className='home-titles'>
             <h1 className="home-title">Call of Dragons <span className='home-gold'>Tools</span></h1>
-            <h2 className='home-description'>Discover useful tools for mastering Call of Dragons. Enhance your gameplay, level up your skills, and dominate with our comprehensive resources and tools.</h2>
+            <p className='home-description'>Discover useful tools for mastering Call of Dragons. Enhance your gameplay, level up your skills, and dominate with our comprehensive resources and tools.</p>
           </div>
           <div className="home-sections">
             <Link key="wikibot" href="/wikibot">

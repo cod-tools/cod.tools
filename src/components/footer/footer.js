@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 
 import './footer.css';
@@ -7,11 +6,9 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <p className="footer-text">Call of Dragons Tools</p>
+        <a href="https://github.com/cod-tools" target="_blank" className="footer-text">Call of Dragons Tools</a>
         <Image src="/logo2.png" width={90} height={66} alt="Logo" className='logo'/>
-        <Link href="https://github.com/GamerRaven">
-          <a className="bwl-text">Built with ❤️ by GamerRaven</a>
-        </Link>
+        <a className='footer-discord' href="https://discord.com/invite/X4h7cjPzgh" target='_blank'>Join Discord Server<Image className="footer-discord-icon" src="/discord.png" width={39} height={30} alt="Discord Server" /></a>
       </div>
     </footer>
   );
