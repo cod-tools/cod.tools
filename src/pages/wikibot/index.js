@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 
 import Header from '@/components/header/header';
 import Footer from '@/components/footer/footer';
@@ -36,14 +37,14 @@ export default function WikiBot() {
           <div className="wiki-features-box">
             <h2 className="wiki-box-title">Heroes</h2>
             <div className="wiki-bottom-container">
-              <img src="https://raw.githubusercontent.com/GamerRaven/Call-of-Dragons-Wiki-Bot/main/.readme/Hero.png" alt="Feature 1" />
+              <Image width={525} height={755} src="https://raw.githubusercontent.com/GamerRaven/Call-of-Dragons-Wiki-Bot/main/.readme/Hero.png" alt="Feature 1" />
               <p className="wiki-description">Learn about the effectiveness, roles, buffs, and pairings of heroes.</p>
             </div>
           </div>
           <div className="wiki-features-box">
             <h2 className="wiki-box-title">Artifacts</h2>
             <div className="wiki-bottom-container">
-              <img src="https://raw.githubusercontent.com/GamerRaven/Call-of-Dragons-Wiki-Bot/main/.readme/Artifact.png" alt="Feature 2" />
+              <Image width={191} height={410} src="https://raw.githubusercontent.com/GamerRaven/Call-of-Dragons-Wiki-Bot/main/.readme/Artifact.png" alt="Feature 2" />
               <p className="wiki-description">Learn about the usage and effectiveness of artifacts.</p>
             </div>
           </div>
@@ -52,14 +53,14 @@ export default function WikiBot() {
           <div className="wiki-features-box">
             <h2 className="wiki-box-title">Behemoths</h2>
             <div className="wiki-bottom-container">
-              <img src="https://raw.githubusercontent.com/GamerRaven/Call-of-Dragons-Wiki-Bot/main/.readme/Behemoth.png" alt="Feature 3" />
+              <Image width={405} height={564} src="https://raw.githubusercontent.com/GamerRaven/Call-of-Dragons-Wiki-Bot/main/.readme/Behemoth.png" alt="Feature 3" />
               <p className="wiki-description">Learn about what each behemoth does and how to defeat them.</p>
             </div>
           </div>
           <div className="wiki-features-box">
             <h2 className="wiki-box-title">Tier List</h2>
             <div className="wiki-bottom-container">
-              <img src="https://i.imgur.com/MjcVhFo.png" alt="Feature 4" />
+              <Image width={209} height={440} src="https://i.imgur.com/MjcVhFo.png" alt="Feature 4" />
               <p className="wiki-description">Get a sorted Tier List to learn which heroes and artifacts to invest in.</p>
             </div>
           </div>

@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+
 import Link from 'next/link'; 
+import Image from 'next/image';
 
 import "./header.css"
 
@@ -22,7 +24,7 @@ const Header = () => {
     <header className={`header ${isNotHome ? 'header-not-home' : ''}`}>
       <Link href="/">
         <a className="logo-container">
-          <img src="/icon.png" />
+          <Image width={68} height={52} src="/icon.png" alt='Logo'/>
         </a>
       </Link>
       <nav className="nav">

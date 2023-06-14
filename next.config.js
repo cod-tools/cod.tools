@@ -5,6 +5,9 @@ const nextConfig = {
       newNextLinkBehavior: false,
     },
     trailingSlash: true,
+    images: {
+      domains: ['raw.githubusercontent.com','i.imgur.com'],
+    },
   };
   
 module.exports = nextConfig;
