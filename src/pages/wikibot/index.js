@@ -71,31 +71,31 @@ export default function WikiBot() {
         <h1 className="wiki-section-title">Commands</h1>
         <div className="wiki-command-table">
           <div className="wiki-command-row">
-            <h2 className="wiki-command-name">c!help</h2>
+            <h2 className="wiki-command-name">/help</h2>
             <p className="wiki-command-description">Get a list of all available commands</p>
           </div>
           <div className="wiki-command-row">
-            <h2 className="wiki-command-name">c!heroes</h2>
+            <h2 className="wiki-command-name">/heroes</h2>
             <p className="wiki-command-description">Get a list of all available heroes</p>
           </div>
           <div className="wiki-command-row">
-            <h2 className="wiki-command-name">c!hero &lt;name&gt;</h2>
+            <h2 className="wiki-command-name">/hero &lt;name&gt;</h2>
             <p className="wiki-command-description">Get information about a hero</p>
           </div>
           <div className="wiki-command-row">
-            <h2 className="wiki-command-name">c!behemoths</h2>
+            <h2 className="wiki-command-name">/behemoths</h2>
             <p className="wiki-command-description">Get a list of all available behemoths</p>
           </div>
           <div className="wiki-command-row">
-            <h2 className="wiki-command-name">c!behemoth &lt;name&gt;</h2>
+            <h2 className="wiki-command-name">/behemoth &lt;name&gt;</h2>
             <p className="wiki-command-description">Get information about a behemoth</p>
           </div>
           <div className="wiki-command-row">
-            <h2 className="wiki-command-name">c!artifacts</h2>
+            <h2 className="wiki-command-name">/artifacts</h2>
             <p className="wiki-command-description">Get a list of all available artifacts</p>
           </div>
           <div className="wiki-command-row">
-            <h2 className="wiki-command-name">c!artifact &lt;name&gt;</h2>
+            <h2 className="wiki-command-name">/artifact &lt;name&gt;</h2>
             <p className="wiki-command-description">Get information about an artifact</p>
           </div>
         </div>
